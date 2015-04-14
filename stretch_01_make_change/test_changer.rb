@@ -1,7 +1,7 @@
 require './test_helper'
 require 'changer'
 
-class TestChanger
+class TestChanger < MiniTest::Test
 
   # make_change
   def test_change_one_quarter
