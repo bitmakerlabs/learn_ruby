@@ -64,7 +64,7 @@ class TestTemperature < MiniTest::Test
 
   def test_in_celsius
     assert_equal 50, Temperature.in_celsius(50).to_celsius
-    assert_equal 12, Temperature.in_celsius(50).to_fahrenheit
+    assert_equal 122, Temperature.in_celsius(50).to_fahrenheit
 
     # Nothing different is being achieved with these two lines,
     # they're just a different way of doing the same thing,
