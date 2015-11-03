@@ -30,12 +30,12 @@ class TestSimonSays < MiniTest::Test
   # Wait a second! How can you make the "repeat" method
   # take one *or* two arguments?
   #
-  # def repeat(string, num = 1)
+  # def repeat(string, num = 2)
   #   # your code here
   # end
   #
-  # The important part is num = 1. What happens is if a num isn't given,
-  # then num will fallback on 1, i.e. it has a default value of 1.
+  # The important part is num = 2. What happens is if a num isn't given,
+  # then num will fallback on 2, i.e. it has a default value of 2.
   def test_repeat_multiple_times
     assert_equal "hello hello hello", repeat("hello", 3)
   end
