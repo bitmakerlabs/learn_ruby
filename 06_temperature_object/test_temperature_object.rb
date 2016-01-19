@@ -125,10 +125,3 @@ class TestTemperature < MiniTest::Test
 
   # def test_.....
 end
-
-# There are two extra credit problems also available
-# The folders for them are called bonus_dictionary and bonus_rpn_dictionary
-
-# There are also two other stretch assignments
-# stretch_make_change
-# stretch_bowling
