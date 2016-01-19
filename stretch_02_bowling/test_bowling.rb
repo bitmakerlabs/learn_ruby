@@ -33,7 +33,7 @@ class TestGame < MiniTest::Test
 
   def test_score_10_when_strike_is_followed_by_gutters
     score = [10] + 19.times.map { 0 }
-    assert_equal @game.score(score)
+    assert_equal 10, @game.score(score)
   end
 
   def test_score_20_when_gutter_followed_by_10_and_5
