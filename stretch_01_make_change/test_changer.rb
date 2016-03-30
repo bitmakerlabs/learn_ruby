@@ -1,6 +1,10 @@
 require './test_helper'
 require 'changer'
 
+#The objective is to take a random integer and return the value of that integer in coins. If you give me 100 pennies I give you back 4 quarters. If you give me 61 pennies I give you back 2 quarters, 1 dime, and 1 penny.
+
+#Once you have all of the tests passing, go back and **refactor** your code to make it more concise and readable.
+
 class TestChanger < MiniTest::Test
 
   # make_change
