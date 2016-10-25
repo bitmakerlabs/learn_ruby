@@ -19,7 +19,7 @@ Since Bundler installs a new command line command, you'll need to the following 
 $ rbenv rehash
 ```
 
-Now you're ready to run Bundler and install all your project gem dependencies.
+Now you're ready to run Bundler and install all your project gem dependencies. Change into the directory of the project with a `Gemfile` and then run:
 
 ```bash
 $ bundle install
